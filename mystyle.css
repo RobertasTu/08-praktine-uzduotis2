@@ -1,0 +1,120 @@
+/* * {
+    box-sizing: border-box;
+  } */
+
+
+body {
+    
+    margin: auto;
+    
+}
+
+.grid-container {
+    width: 1909px;
+    height:1065px;
+    display: grid;
+    grid-gap: 0px;
+    background: #657AD3;
+    opacity: 1;
+    grid-template-columns: auto auto auto;
+     
+}
+
+.grid-item-1 {
+    width: 880px;
+    height: 1065px;
+    outline: 1px solid rgb(248, 8, 8);
+          }
+.grid-item-2 {
+    width: 1029px;
+    height: 1065px;
+    background: #657AD3;
+
+}
+    
+.checkbox {
+    padding-top: 298px;
+    width: 480px;
+    height: 484px;
+    float: left;
+    background-color: white;
+
+        }
+
+
+
+img {
+    width: 320px;
+    height: 424px;
+    position: absolute;
+    top: 328px;
+    left: 560px;
+    /* object-fit: cover; */
+}
+
+.sign-up {
+    position: absolute;
+    top: 360px;
+    left: 600px;
+    height: 32px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.privacy {
+    position: absolute;
+    top: 708px;
+    left: 600px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    height: 16px;
+}
+
+
+
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    size: 13px;
+
+ }
+ input[type=Email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+ }
+ input[type=Psw], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+ }
+ input[type=Repeat], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+ }
+ button {
+     background-color: pink;
+     border-radius: 12px;
+
+ }
