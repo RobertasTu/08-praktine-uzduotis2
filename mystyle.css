@@ -38,11 +38,13 @@ body {
     height: 484px;
     float: left;
     background-color: white;
-    
+      
 
         }
 
-
+.Username {
+    margin-left: 200px;
+}
 
 img {
     width: 320px;
@@ -118,10 +120,12 @@ img {
  button {
      background-color: pink;
      border-radius: 12px;
+     color: white;
 
  }
-
- .Username {
-  padding-left: 60px;
-
+ .a {
+    color: blue;
  }
+     
+ 
+
