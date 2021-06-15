@@ -38,7 +38,7 @@ body {
     height: 484px;
     float: left;
     background-color: white;
-    padding-top: 10px;
+    
 
         }
 
@@ -118,6 +118,10 @@ img {
  button {
      background-color: pink;
      border-radius: 12px;
-     
+
+ }
+
+ .Username {
+  padding-left: 60px;
 
  }
