@@ -33,11 +33,12 @@ body {
 }
     
 .checkbox {
-    padding-top: 298px;
+    margin-top: 298px;
     width: 480px;
     height: 484px;
     float: left;
     background-color: white;
+    padding-top: 10px;
 
         }
 
@@ -80,7 +81,8 @@ img {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    size: 13px;
+    
+    line-height: 20px;
 
  }
  input[type=Email], select {
@@ -116,5 +118,6 @@ img {
  button {
      background-color: pink;
      border-radius: 12px;
+     
 
  }
